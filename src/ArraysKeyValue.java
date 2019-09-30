@@ -17,8 +17,8 @@ public class ArraysKeyValue {
             }
         }
 
-        minMiles = Integer.MAX_VALUE;
-        maxMiles = 0;
+        minMiles = milesTracker[0][0];
+        maxMiles = milesTracker[0][0];
         for (i = 0; i < milesTracker.length; i++){
             for (j = 0; j < milesTracker[i].length; j++){
                 int currentMiles = milesTracker[i][j];
